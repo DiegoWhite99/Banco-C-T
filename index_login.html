@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/60910c192f.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagenes/favicon.png" type="image/png">
+    <title>Login | BancoC&T</title>
+</head>
+<body>
+
+<section>
+    <div class="contenedor">
+        <!-- Initially, both images are hidden -->
+        <img src="imagenes/logo_b.gif" class="logo logo-gif" style="display: none;">
+        <img src="imagenes/logo_b1.png" class="logo logo-png" style="display: none;">
+        <div class="formulario">
+            <form action="index1.html" method="POST">
+                <br>
+                <br>
+                <h2>Inicio de Sesión</h2>
+
+                <div class="input-contenedor">
+                    <i class="fa-solid fa-envelope fa-fade" style="color: #ffffff;"></i>
+                    <input type="email"  name="Correo"required>
+                    <label for="email">Email</label>
+                </div>
+
+                <div class="input-contenedor">
+                    <i class="fa-solid fa-lock fa-shake" style="color: #ffffff;"></i>
+                    <input type="password" name="Contraseña"required>
+                    <label for="contraseña">Contraseña</label>
+                </div>
+
+                <div class="olvidar">
+                    <label for="recordar-contraseña">
+                        <input type="checkbox" id="recordar-contraseña">
+                        Recordar <a href="index_registro.html">Contraseña</a>
+                    </label>
+                </div>
+
+                 <div>
+                    <button type="submit">Acceder</button>
+                    <div class="registrar">
+                        <p><a href="index_registro.html">Crear cuenta</a></p>
+                    </div>
+                </div>
+
+            </form>
+
+           
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    // Show the GIF initially
+    document.querySelector('.logo-gif').style.display = 'block';
+
+    // Hide the GIF and show the PNG image after 3 seconds
+    setTimeout(function () {
+        document.querySelector('.logo-gif').style.display = 'none';
+        document.querySelector('.logo-png').style.display = 'block';
+    }, 3000);
+</script>
+
+</body>
+</html>
+

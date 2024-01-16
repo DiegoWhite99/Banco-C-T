@@ -1,0 +1,37 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-image: url(imagenes/fondo_gracias.jpg);
+  background-size: cover;
+  background-attachment: fixed; 
+}
+
+.contenedor {
+  text-align: center;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.contenedor img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #000;
+}
+
+h4 {
+  color: #555;
+}
+
+footer {
+  text-align: center;
+  background: linear-gradient(to bottom, #333, #000); 
+  color: #fff; 
+  padding: 50px;
+}

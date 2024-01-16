@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin:left 50%;
+}
+/* para el hipervencilo iniciar sesion*/
+.registrar a {
+    color: #ff0000; /* Puedes ajustar el color según tus preferencias */
+  }
+/*formulario*/
+.formulario{
+    margin-top: 10px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('imagenes/Fondo.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.logo_b1 {
+    display: flex;
+    width: 18%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px; /* Puedes ajustar este valor según sea necesario */
+}
+label{
+    color: white;
+    margin-left: 5px;
+}
+
+
+.contenedor {
+    width: 100%;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: 8%;
+    backdrop-filter: blur(15px);
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    margin: auto;
+}
+
+.contenedor h2 {
+    font-size: 2.3rem;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+
+
+input{
+    margin: 7px; 
+    width: 100%;
+    height: 20px;  
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white; 
+    font-size: 15px;
+    padding-bottom: 6px;
+    
+}
+input:focus{
+    outline: none;
+    
+}
+input:focus::placeholder {
+    color: transparent;
+}
+input::placeholder{
+    color: white;
+}
+
+
+button {
+    width: 100%;
+    height: 45px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+    transition: 0.4s;
+    margin-top:50px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.registrar {
+    font-size: 0.8rem;
+    color: #fff;
+    text-align: center;
+    margin: 20px 0 10px;
+}
+
+.registrar p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.registrar p a:hover {
+    text-decoration: underline;
+}

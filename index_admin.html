@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style_admin.css">
+    <link rel="icon" href="imagenes/favicon.png" type="image/png">
+    <title>Admin | BancoCT</title>
+</head>
+<body>
+    <div class="contenedor-difuminado">
+        <img class="logo_b1" src="imagenes/logo_b1.png" alt="Logo Banco">
+    </div>
+
+    <form method="POST" action="registros_admin.php" class="contenedor">
+        <!-- Datos Personales -->
+        <h2>Servicios Bancarios</h2>
+
+        <div class="input-contenedor">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div class="input-contenedor">
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+        </div>
+
+        <div class="input-contenedor">
+            <label for="documento">Documento:</label>
+            <input type="text" id="documento" name="documento" required>
+        </div>
+
+        <!-- Servicios -->
+        <div class="input-contenedor">
+            <label>Servicio:</label>
+            <select name="servicio" required>
+                <option value="creditos">Créditos</option>
+                <option value="cuenta_ahorros">Cuenta de Ahorros</option>
+                <option value="seguros">Seguros</option>
+                <option value="inversiones">Inversiones</option>
+            </select>
+        </div>
+
+        <!-- Botón de Enviar -->
+        <button type="submit">Realizado</button>
+    </form>
+</body>
+</html>

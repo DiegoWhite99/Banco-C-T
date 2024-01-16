@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/60910c192f.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registro.css">
+    <link rel="icon" href="imagenes/favicon.png" type="image/png">
+    <title>Registro | BancoC&T</title>
+</head>
+<body>
+   
+<section>
+    <img src="imagenes/logo_b1.png" class="logo_b1">
+    <div class="contenedor">
+        
+        <h2>Registrarse</h2>
+
+        <div class="formulario">
+            <form method="POST" action="guardar_registro.php">
+                
+                <div class="input-contenedor">
+                    <input type="text" name="Nombre" required placeholder="Nombre">
+                </div>
+                <br>
+                <div class="input-contenedor">
+                    <input type="text" name="Apellido" required placeholder="Apellido">
+                </div>
+                <br>
+                <div class="input-contenedor">
+                    <input type="text" name="Cedula" required placeholder="Cedula">
+                </div>
+                <br>
+                <div class="input-contenedor">
+                    <label for="fecha_nacimiento"></label>
+                    <input type="date" name="fecha_nacimiento" required placeholder="Fecha de nacimiento">
+                </div>
+                <br>
+                <div class="input-contenedor">
+                    <input type="tel" name="Celular" required  placeholder="Celular">
+                </div>
+                <br>
+                <div class="input-contenedor">
+                    <input type="email" name="Correo" required placeholder="Correo Electronico">
+                </div>
+                <br>
+                <div class="input-contenedor">
+                    <input type="password" id="password" name="Contraseña" required placeholder="Contraseña">
+                </div>
+                <br>
+                <div class="input-contenedor">
+                    <input type="password" id="confirmar-password" name="confirmar-password" required placeholder="Confirmar contraseña">
+                </div>
+            
+                <div>
+                    <button type="submit">Registrar</button>
+                    <div class="registrar">
+                        <p><a href="index_login.html">Iniciar Sesion</a></p>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

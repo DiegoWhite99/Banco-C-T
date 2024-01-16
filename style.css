@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: left 50%;
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('imagenes/Fondo.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.logo-gif {
+    align-items: center;
+    position: absolute;
+    width: 40%;
+    top: 1%;
+    left: 5;
+}
+
+.logo-png {
+    align-items: center;
+    position: absolute;
+    width: 40%;
+    top: 1%;
+    left: 5;
+}
+
+.contenedor {
+    width: 400px;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: 8%;
+    backdrop-filter: blur(15px);
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor h2 {
+    font-size: 2.3rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.contenedor h4 {
+    font-size: 1.8rem;
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: 2.5%;
+}
+
+
+.input-contenedor {
+    margin: 10%;
+    width: 300px;
+    position: relative;
+}
+
+.input-contenedor label {
+    position: absolute;
+    top: 10%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #ffffff;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.input-contenedor input {
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.input-contenedor i{
+    position: absolute;
+    color: #fff;
+    font-size: 1rem;
+    top: 20px;
+    right: 8px;
+}
+
+.input-contenedor input:focus~label,
+.input-contenedor input:valid~label {
+    top: -20px;
+    font-size: 0.9rem;
+}
+
+.olvidar {
+    margin: 10px 0;
+    font-size: 0.9rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.olvidar label input {
+    margin: 3px;
+}
+
+.olvidar label a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.olvidar label a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    height: 45px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+    transition: 0.4s;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.registrar {
+    font-size: 0.8rem;
+    color: #fff;
+    text-align: center;
+    margin: 20px 0 10px;
+}
+
+.registrar p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.registrar p a:hover {
+    text-decoration: underline;
+}

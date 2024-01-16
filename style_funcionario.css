@@ -1,0 +1,83 @@
+
+.titulo > label{
+    font-size: 35px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    
+}
+
+
+.inicio{
+   
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 180px;
+    margin-top: 120px;
+    margin: -2px;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: left;  
+    font-family: "Arial","Helvetica",sans-serif;
+    background: linear-gradient(to bottom, rgba(48, 49, 49, 0.5), rgba(44, 43, 43, 0.5));
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+   
+
+    
+}
+
+body {
+    background-image: url("imagenes/Fondo.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100%;
+    margin:20px;
+    margin-top: 30px;
+    
+    
+}
+
+/*clase para el boton*/
+.boton{
+    align-items: center;
+    border: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    
+    
+    
+}
+.boton:hover{
+    color: black;
+    border-color: 1px solid rgb(0, 0, 0);
+    background-color: white;
+}
+/*clase para el logo*/
+.logo_b1{
+    max-width: 500px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: auto;
+    display: block;
+    margin: 0 ; /* Centra la imagen horizontalmente */
+}
+
+
+/*clase para todos los input*/
+input{
+    background-color: transparent;
+    border: none;
+    color: white;
+    border-bottom: 2px solid white;
+    padding: 6px;
+    outline: none;
+}
+
+/*clase los placeholder de los imput*/
+input::placeholder{
+    color: rgb(255, 255, 255);
+}
+
